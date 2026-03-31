@@ -11,7 +11,7 @@ metadata:
   title:
     default: 积木好课
     template: '%s — 积木好课'
-  description: "技术创造价值."
+  description: '技术创造价值.'
   robots:
     index: true
     follow: true
