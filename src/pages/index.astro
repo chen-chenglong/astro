@@ -28,7 +28,6 @@ const metadata = {
         text: '开始学习',
         href: 'https://github.com/arthelokyo/astrowind',
         target: '_blank',
-        icon: 'tabler:bulb',
       },
       { text: '浏览文章', href: '#features' },
     ]}
@@ -51,23 +50,23 @@ const metadata = {
 
   <Content
     isReversed
-    tagline="Inside template"
-    title="AstroWind's Blueprint: Fun Meets Functionality!"
+    tagline="AutoCAD课程"
+    title="全网最全面的AutoCAD视频教程!"
     items={[
       {
-        title: 'Built on top of Astro 5.0',
+        title: '二维制图',
         description:
-          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
+          '零基础学员可学，从零入门AutoCAD技术，首先学习二维制图，包含基础图形绘制、尺寸标注、对象编辑、图层排版和打印出图等。',
       },
       {
-        title: 'Styled using Tailwind CSS',
+        title: '三维建模',
         description:
-          'Facilitating rapid design and consistent styling with this highly popular utility-first CSS framework.',
+          '全网唯一全面的三维建模包含全部类型：三维实体、网格和曲面建模技术。',
       },
       {
-        title: 'Cross-browser compatibility',
+        title: '高级渲染',
         description:
-          'Ensure your website looks and functions consistently across various web browsers, delivering a seamless experience to all users.',
+          '给三维模型贴上贴图，添加材质和布景，选择合适的灯光，渲染出效果图',
       },
     ]}
     image={{
@@ -76,8 +75,8 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
-      Gain a competitive advantage by incorporating industry leading practices
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Autodesk官方认证教师原创课程</h3>
+      零基础学员可学，从零入门二维制图、三维建模，最后是高级渲染。
     </Fragment>
 
     <Fragment slot="bg">
@@ -162,11 +161,7 @@ const metadata = {
   <!-- HighlightedPosts Widget ******* -->
 
   <BlogLatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-                        Astro is a very interesting technology. Thanks.
-                `}
+    title="案例和技术文档"
   />
 
   <!-- FAQs Widget ******************* -->
