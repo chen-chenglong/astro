@@ -3,28 +3,16 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: '主页',
       links: [
         {
           text: 'SaaS',
           href: getPermalink('/homes/saas'),
         },
-        {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
-        },
-        {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
-        },
       ],
     },
     {
-      text: 'Pages',
+      text: '页面',
       links: [
         {
           text: 'Features (Anchor Link)',
@@ -57,7 +45,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: '落地页',
       links: [
         {
           text: 'Lead Generation',
@@ -86,7 +74,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: '文章',
       links: [
         {
           text: 'Blog List',
@@ -111,11 +99,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'Widgets',
+      text: '自定义',
       href: '#',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
+  actions: [{ text: '开始学习', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
