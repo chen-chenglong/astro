@@ -6,6 +6,7 @@ import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
+import Pricing from '~/components/widgets/Pricing.astro';
 
 const metadata = {
   title: '积木好课：技术创造价值',
@@ -150,7 +151,46 @@ const metadata = {
       alt: 'Steps image',
     }}
   />
-
+<Pricing
+    title="AutoCAD视频课程"
+    prices={[
+      {
+        title: '二维制图',
+        subtitle: '从零开始包含所有二维制图相关技术。',
+        price: 50,
+        period: '永久有效',
+        callToAction: {
+          target: '_blank',
+          text: '购买二维',
+          href: '#',
+        },
+      },
+      {
+        title: '三维建模',
+        subtitle: 'Premium templates and advanced customization',
+        price: 60,
+        period: '永久有效',
+        callToAction: {
+          target: '_blank',
+          text: '购买三维建模',
+          href: '#',
+        },
+        hasRibbon: true,
+        ribbonTitle: 'popular',
+      },
+      {
+        title: '高级渲染',
+        subtitle: 'Tailored solutions for large-scale projects',
+        price: 45,
+        period: '永久有效',
+        callToAction: {
+          target: '_blank',
+          text: '购买高级渲染',
+          href: '#',
+        },
+      },
+    ]}
+  />
   <!-- HighlightedPosts Widget ******* -->
 
   <BlogLatestPosts title="案例和技术文档" />
