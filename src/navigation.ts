@@ -4,7 +4,7 @@ export const headerData = {
   links: [
     {
       text: '主页',
-      href:'#',
+      href: '#',
     },
     {
       text: '文章',
